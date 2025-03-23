@@ -30,7 +30,7 @@ fn main() {
         prev_repayment_date: loan_start,
         repayment_cycle: simulator::Cycle::Fortnightly,
         repayment_use_stash: false,
-        schedule_end: loan_end,
+        schedule_end: Some(loan_end),
         leftover_incoming: None,
         leftover_amount: None,
         leftover_repayment: None,
